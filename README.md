@@ -7,4 +7,5 @@ This app is designed to quickly identify and remove pre-installed apps on Window
 
 I’ve done some tweaking and bundled everything into a lightweight app package now. Just a heads-up—my older apps like XD-AntiSpy and Bloatbox aren't working properly yet either.
 
+I got so fed up with a machine that just wouldn’t cooperate, I had to call it "Dumputer" – a mix of 'dump' and 'computer.' Sometimes, they’re just full of junk. And that's how the name was born..😄
 
