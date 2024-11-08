@@ -5,7 +5,7 @@ Initially, I used the .NET PowerShell API to fetch installed Appx packages by ru
 
 This app is designed to quickly identify and remove pre-installed apps on Windows 11 (especially version 24H2). It started as a client project, where I optimized the app to efficiently track down and remove unnecessary software. Some features will still be unlocked as I continue to enhance the app.
 
-I’ve done some tweaking and bundled everything into a lightweight app package now. Just a heads-up—my older apps like XD-AntiSpy and Bloatbox aren't working properly yet either.
+I’ve done some tweaking and bundled everything into a lightweight app package now. Just a heads-up—my older apps like XD-AntiSpy (Specifically, the Debloater plugin in XD-AntiSpy isn’t functioning right at the moment) and Bloatbox aren't working properly yet either.
 
 I got so fed up with a machine that just wouldn’t cooperate, I had to call it "Dumputer" – a mix of 'dump' and 'computer.' Sometimes, they’re just full of junk. And that's how the name was born..😄
 
