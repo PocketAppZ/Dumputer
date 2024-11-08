@@ -1,11 +1,14 @@
-# Dumputer
-With the release of version 24H2, Microsoft made some changes to the Get-AppxPackage command, causing many debloater tools to break. To address this, I switched to a Process-Based Approach, where an external PowerShell.exe process runs the same Get-AppxPackage cmdlet. This method captures and processes the output asynchronously, improving stability and compatibility.
+### Dumputer is a quick and efficient app remover for Windows 11, built to get rid of unnecessary pre-installed apps (looking at you, bloatware). Sometimes you just need a tool that works fast, no frills, and with smart recommendations that make the process smoother. 
 
-Initially, I used the .NET PowerShell API to fetch installed Appx packages by running the Get-AppxPackage cmdlet, pulling both app names and package details. However, I ran into the 'type initializer for '<Module>' threw an exception' error, likely due to compatibility issues with PowerShell modules in certain environments.
+I created this tool out of frustration — Windows 11 had become sluggish, and the typical debloating tools weren’t cutting it. So, I decided to build something reliable and effective. With Dumputer, youll have a lightweight, no-nonsense solution that works, especially with version 24H2 of Windows 11.
 
-This app is designed to quickly identify and remove pre-installed apps on Windows 11 (especially version 24H2). It started as a client project, where I optimized the app to efficiently track down and remove unnecessary software. Some features will still be unlocked as I continue to enhance the app.
+### Background
+When Microsoft released Windows 11 version 24H2, they tweaked the Get-AppxPackage command, which broke a lot of popular debloater tools. To solve this, I pivoted to a Process-Based Approach. Instead of running the Get-AppxPackage cmdlet directly through the app, I now launch an external PowerShell.exe process that handles the command asynchronously. This not only ensures better stability but also makes the app more compatible with the latest updates.
 
-I’ve done some tweaking and bundled everything into a lightweight app package now. Just a heads-up—my older apps like XD-AntiSpy (specifically, the Debloater plugin) and Bloatbox aren't working properly yet either.
+Initially, I used the .NET PowerShell API to fetch installed Appx packages, but ran into some compatibility issues, notably the "type initializer for '<Module>' threw an exception" error. So, I ditched that approach and went for a more reliable, process-based method.
 
-I got so fed up with a machine that just wouldn’t cooperate, I had to call it "Dumputer" – a mix of 'dump' and 'computer.' Sometimes, they’re just full of junk. And that's how the name was born..😄
+Dumputer was originally born as a client project where I fine-tuned the tool to track down and efficiently remove unwanted software. Right now, it’s a lean, fast solution — but stay tuned, as I'll be unlocking more features as I continue to optimize it.
 
+Just a heads-up: Older apps like XD-AntiSpy (including the Debloater plugin) and Bloatbox are still broken due to the same issue..
+
+And about the name? Well, I was so tired of dealing with a bloated, slow machine that I just had to call it "Dumputer" — a mix of dump and computer. Because sometimes, your computer’s just full of junk. 
