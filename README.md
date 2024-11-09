@@ -9,6 +9,6 @@ Initially, I used the .NET PowerShell API to fetch installed Appx packages, but 
 
 Dumputer was originally born as a client project where I fine-tuned the tool to track down and efficiently remove unwanted software. Right now, it’s a lean, fast solution — but stay tuned, as I'll be unlocking more features as I continue to optimize it.
 
-Just a heads-up: Older apps like XD-AntiSpy (including the Debloater plugin) and Bloatbox are still broken due to the same issue..
+Just a heads-up: Older apps like XD-AntiSpy (including the Debloater plugin) and Bloatbox are still broken due to the same issue. I’ll definitely get around to fixing XD-AntiSpy soon, but with older apps like Bloatbox, breaking down the code takes much longer. Sometimes, starting a new project ends up being quicker
 
 And about the name? Well, I was so tired of dealing with a bloated, slow machine that I just had to call it "Dumputer" — a mix of dump and computer. Because sometimes, your computer’s just full of junk. 
