@@ -3,7 +3,7 @@
 I created this tool out of frustration — Windows 11 had become sluggish, and the typical debloating tools weren’t cutting it. So, I decided to build something reliable and effective. With Dumputer, youll have a lightweight, no-nonsense solution that works, especially with version 24H2 of Windows 11.
 
 ### Background
-When Microsoft released Windows 11 version 24H2, they tweaked the Get-AppxPackage command, which broke a lot of popular debloater tools. To solve this, I pivoted to a Process-Based Approach. Instead of running the Get-AppxPackage cmdlet directly through the app, I now launch an external PowerShell.exe process that handles the command asynchronously. This not only ensures better stability but also makes the app more compatible with the latest updates.
+When Microsoft released Windows 11 version 24H2, they tweaked the Get-AppxPackage command, which broke a some debloater tools. To solve this, I pivoted to a Process-Based Approach. Instead of running the Get-AppxPackage cmdlet directly through the app, I now launch an external PowerShell.exe process that handles the command asynchronously. This not only ensures better stability but also makes the app more compatible with the latest updates.
 
 Initially, I used the .NET PowerShell API to fetch installed Appx packages, but ran into some compatibility issues, notably the "type initializer for '<Module>' threw an exception" error. So, I ditched that approach and went for a more reliable, process-based method.
 
